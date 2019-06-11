@@ -209,7 +209,7 @@ public class GestorCelular {
         int temp1=0;
         int temp2=0;
         while (temp1<i && temp2<j) {
-            if(celus.get(primero+temp1).getModelo().compareTo(celus.get(primero+i+temp).getModelo())>0){
+            if((celus.get(primero+temp1).getModelo().compareTo(celus.get(primero+i+temp2).getModelo()))>0){
                 aux[temp++]=celus.get(primero+(temp1++));
             }else{
                 aux[temp++]=celus.get(primero+i+(temp2++));
