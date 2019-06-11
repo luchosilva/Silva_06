@@ -29,7 +29,7 @@ public class Main {
         //interfaz.mostrarArrayList();
         //interfaz.insertionSortPorModelo(interfaz.celulares); //funciona
         //interfaz.mostrarArrayList();
-        //interfaz.mergeSortPorModelo(0,interfaz.celulares.size(),interfaz.celulares); //no funciona
+        //interfaz.mergeSortPorModelo(0,interfaz.celulares.size(),interfaz.celulares); //funciona
         System.out.println("");
         interfaz.mostrarArrayList();
     }
